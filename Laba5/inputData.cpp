@@ -29,15 +29,15 @@ double getInput(const std::string& inputType) {
 		int res = std::stoi(input);
 
 		if (inputType == "N" && res <= 0) {
-			std::cout << "Уважаемый пользователь, спешим вам напомнить, что матрицы с отрицательным размером или 0x0 не существует. @Team_Autism™ 2026. All Rights Reserved." << std::endl << std::endl;
+			std::cout << "Уважаемый пользователь, спешим вам напомнить, что матрицы с отрицательным размером или 0x0 не существует. @Astakhov_CORP™ 2026. All Rights Reserved." << std::endl << std::endl;
 			continue;
 		}
 		if (inputType == "N" && res > 250) {
-			std::cout << "Уважаемый пользователь, введенная вами размерность матрицы слишком велика, давайте не будем использовать матрицу размером более чем 250x250. @Team_Autism™ 2026. All Rights Reserved." << std::endl << std::endl;
+			std::cout << "Уважаемый пользователь, введенная вами размерность матрицы слишком велика, давайте не будем использовать матрицу размером более чем 250x250. @Astakhov_CORP™ 2026. All Rights Reserved." << std::endl << std::endl;
 			continue;
 		}
 		if (inputType == "K" && res < 1) {
-			std::cout << "Уважаемый пользователь, спешим вам напомнить, что в матрице нумерация столбцов начинается с j=1. @Team_Autism™ 2026. All Rights Reserved." << std::endl << std::endl;
+			std::cout << "Уважаемый пользователь, спешим вам напомнить, что в матрице нумерация столбцов начинается с j=1. @Astakhov_CORP™ 2026. All Rights Reserved." << std::endl << std::endl;
 			continue;
 		}
 
